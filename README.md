@@ -15,13 +15,15 @@ el cual representara el porcentaje de obstaculos o de dificultad del laberinto a
 despues te encontras con el siguiente menu:
 
 ## ***** EJEMPLO MENU ******
-## ========================================
-##      Escoge método de búsqueda
-## ========================================
-## 1) Búsqueda en Profundidad
-## 2) Buscar en Anchura
-## 3) Buscar Mejor Primero
-## 4) Salir
+ ========================================
+      Escoge método de búsqueda
+ ========================================
+## 
+ 1) Búsqueda en Profundidad
+ 2) Buscar en Anchura
+ 3) Buscar Mejor Primero
+ 4) Salir
+## 
 
 3 opciones con las cuales te indicaran los pasos a realizar para salir del laberinto
 y la ultima que es para cerrar el menu.
