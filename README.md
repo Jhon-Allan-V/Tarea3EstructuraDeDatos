@@ -14,7 +14,7 @@ el cual representara el porcentaje de obstaculos o de dificultad del laberinto a
 
 despues te encontras con el siguiente menu:
 
-## ***** EJEMPLO MENU ******
+ ***** EJEMPLO MENU ******
  ========================================
       Escoge método de búsqueda
  ========================================
