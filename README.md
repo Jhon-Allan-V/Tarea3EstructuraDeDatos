@@ -1,33 +1,28 @@
-En este *repl* puedes encontrar varios ejemplos que te pueden ayudar con las tareas de estructura.
-
-## Código de Ejemplo (tarea1)
-Para ejecutar el ejemplo tarea1 primero debemos compilar (en la carpeta raíz)
+## Código de Ejemplo (tarea3)
+Para ejecutar el ejemplo tarea3 primero debemos compilar (en la carpeta raíz)
 ````
-gcc tdas/*.c tarea1.c -Wno-unused-result -o tarea1
+gcc tarea3.c tdas/list.c tdas/map.c tdas/heap.c tdas/extra.c -o tarea3^C
 ````
 
 Y luego ejecutar:
 ````
-./tarea1
+./tarea3
 ````
 
-## TDAs
-En la carpeta `tdas` se encuentran implementados distintos TDAs que puedes utilizar (lista, pila, cola, cola con prioridad y mapas). 
+Una vez ya compilado y ejecutado, debes de ingresar un numero entero desde el [0 - 100],
+el cual representara el porcentaje de obstaculos o de dificultad del laberinto a solucionar.
 
-Las implementaciones no son las más eficientes (todas usan como estructura de datos una **lista enlazada**), por lo que puedes reemplazarlas por las que has realizado en los labs.
+despues te encontras con el siguiente menu:
 
-## Otros códigos (en carpeta examples)
-Para ejecutar los distintos ejemplos que hay en la carpeta `examples`, primero debes compilarlos. Si estamos en la carpeta raíz:
-````
-gcc tdas/*.c examples/example2_menu.c -Wno-unused-result -o example
-````
-Y luego ejecutarlos:
-````
-./example
-````
+## ***** EJEMPLO MENU ******
+## ========================================
+##      Escoge método de búsqueda
+## ========================================
+## 1) Búsqueda en Profundidad
+## 2) Buscar en Anchura
+## 3) Buscar Mejor Primero
+## 4) Salir
 
-Se incluyen los siguientes ejemplos:
-* `example1_list`: Uso del TDA Lista, inserción y eliminación de elementos.
-* `example2_menu`: Ejemplo de menú con submenús.
-* `example3_readcsv`: Ejemplo de lectura desde un archivo csv y almacenamiento en datos estructurados.
-* `example4_map`: Ejemplo de uso del TDA mapa.
+3 opciones con las cuales te indicaran los pasos a realizar para salir del laberinto
+y la ultima que es para cerrar el menu.
+
