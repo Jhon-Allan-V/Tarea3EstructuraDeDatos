@@ -1,7 +1,7 @@
 ## Código de Ejemplo (tarea3)
 Para ejecutar el ejemplo tarea3 primero debemos compilar (en la carpeta raíz)
 ````
-gcc tarea3.c tdas/list.c tdas/map.c tdas/heap.c tdas/extra.c -o tarea3^C
+gcc tarea3.c tdas/list.c tdas/map.c tdas/heap.c tdas/extra.c -o tarea3
 ````
 
 Y luego ejecutar:
